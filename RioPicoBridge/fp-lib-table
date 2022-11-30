@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "C:/Users/rahee/Documents/RioPicoi2cBridge/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "Connectors_JST")(type "KiCad")(uri "C:/Users/rahee/Documents/RioPicoi2cBridge/Connectors_JST.pretty")(options "")(descr ""))
+)
