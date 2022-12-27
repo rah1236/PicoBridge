@@ -1706,7 +1706,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Female") (at 227.33 104.14 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1be135a4-7f20-4573-9c11-2e6713feb7f4)
-    (property "Reference" "J?" (id 0) (at 227.33 93.98 0))
+    (property "Reference" "J4" (id 0) (at 227.33 93.98 0))
     (property "Value" "JST" (id 1) (at 227.33 96.52 0))
     (property "Footprint" "Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal" (id 2) (at 227.33 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1780,7 +1780,7 @@
   (symbol (lib_id "power:GND") (at 240.03 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3203ce50-ef83-431b-a38b-f8ca07c919c5)
-    (property "Reference" "#PWR?" (id 0) (at 246.38 101.6 0)
+    (property "Reference" "#PWR0103" (id 0) (at 246.38 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 243.84 101.5999 90)
@@ -2257,7 +2257,7 @@
   (symbol (lib_id "power:+3V3") (at 240.03 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid dce7196c-bf07-4052-a9de-915925ff82f4)
-    (property "Reference" "#PWR?" (id 0) (at 236.22 104.14 0)
+    (property "Reference" "#PWR0104" (id 0) (at 236.22 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 243.84 104.1399 90)
@@ -2448,6 +2448,12 @@
     (path "/19126e41-8246-4e3e-a45a-bbd7bd88228f"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3203ce50-ef83-431b-a38b-f8ca07c919c5"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/dce7196c-bf07-4052-a9de-915925ff82f4"
+      (reference "#PWR0104") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/e8e807a4-269f-4fd7-8f2b-f1b407adfd9e"
       (reference "#PWR0107") (unit 1) (value "+3V3") (footprint "")
     )
@@ -2523,12 +2529,6 @@
     (path "/6a1841b5-5570-47bc-bb9e-00a2080e0e65"
       (reference "#PWR0131") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/3203ce50-ef83-431b-a38b-f8ca07c919c5"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/dce7196c-bf07-4052-a9de-915925ff82f4"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/16a3a2dc-f6c2-4c1d-a75e-be06c82f10ee"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -2556,11 +2556,11 @@
     (path "/83ec429d-2f13-4bb4-80a0-c3d7b6c6e04a"
       (reference "J3") (unit 1) (value "JST") (footprint "Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal")
     )
+    (path "/1be135a4-7f20-4573-9c11-2e6713feb7f4"
+      (reference "J4") (unit 1) (value "JST") (footprint "Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal")
+    )
     (path "/c6339fa9-1ff0-48c4-9fce-d565bb93661c"
       (reference "J5") (unit 1) (value "MXP") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical")
-    )
-    (path "/1be135a4-7f20-4573-9c11-2e6713feb7f4"
-      (reference "J?") (unit 1) (value "JST") (footprint "Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal")
     )
     (path "/11ed9d27-5ddc-4a7d-b52c-68c3cefa5f56"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
